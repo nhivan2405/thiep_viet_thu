@@ -1,0 +1,7 @@
+Đặt bốn VIDEO TikTok có âm thanh vào thư mục này, đúng tên:
+01-xin-loi.mp4
+02-hieu-nhau.mp4
+03-ky-niem.mp4
+04-loi-hen.mp4
+
+Video được ẩn hình, website chỉ phát âm thanh. Bạn có thể thay bốn video khác nhau cho bốn lá thư. MP4 H.264/AAC tương thích trình duyệt tốt nhất. Nếu video không phát, thử phát trực tiếp trong Chrome để kiểm tra codec.
