@@ -4,10 +4,10 @@ import FlowerTransition from './components/FlowerTransition';
 import LetterGarden from './components/LetterGarden';
 
 const musicFiles = [
-  '/music/01-xin-loi.mp4',
-  '/music/02-hieu-nhau.mp4',
-  '/music/03-ky-niem.mp4',
-  '/music/04-loi-hen.mp4'
+  '/music/01-xin-loi.mp3',
+  '/music/02-hieu-nhau.mp3',
+  '/music/03-ky-niem.mp3',
+  '/music/04-loi-hen.mp3'
 ];
 
 export default function App() {
@@ -57,7 +57,12 @@ export default function App() {
 
   return (
     <main className="page-shell">
-      <video ref={audioRef} loop playsInline preload="auto" style={{ display: 'none' }} />
+        <audio
+    ref={audioRef}
+    loop
+    preload="auto"
+    style={{ display: 'none' }}
+    />
       {stage === 'envelope' && (
         <div className="entrance">
           <div className="entrance-stars">✧ ˚ · . ✦ . · ˚ ✧</div>
